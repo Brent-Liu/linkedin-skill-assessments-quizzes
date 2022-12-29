@@ -2042,3 +2042,20 @@ print(typeof NaN);
 - [ ] console.log()
 - [ ] window.alert()
 - [x] all of the above
+
+
+#### Q150. What value is assigned to total after this code executes
+
+```js
+function sum(num1, num2 = 2, num3 = 3){
+  return num1 + num2 + num3;
+}
+
+let values = [1, 5];
+let total = sum(4, ...values);
+```
+
+- [ ] 0
+- [ ] 7
+- [ ] 6
+- [x] 10
